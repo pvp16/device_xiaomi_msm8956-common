@@ -272,6 +272,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.msm8952
 
+# QPerformance
+PRODUCT_BOOT_JARS += QPerformance
+
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
     libtinyxml \
